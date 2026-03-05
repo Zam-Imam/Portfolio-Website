@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ali's Portfolio</title>
+    <meta name="description"
+        content="Ali Mohammad Imam — Second year ECSc. student passionate about computer vision, AI systems, and real-time software. Open to internships and entry-level roles." />
+    <meta name="author" content="Ali Mohammad Imam" />
+    <meta name="theme-color" content="#060606" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Ali Mohammad Imam — ECSc. Student &amp; CV Engineer" />
+    <meta property="og:description"
+        content="Second year ECSc. student building real-time computer vision systems. Currently open to opportunities." />
+    <meta property="og:url" content="https://zam-imam.github.io" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://zam-imam.github.io" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Unbounded:wght@700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div class="cursor" id="cur" aria-hidden="true"></div>
+    <div class="cursor-star" id="curStar" aria-hidden="true">&#10022;</div>
+    <div class="cursor-ring" id="curR" aria-hidden="true"></div>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <a href="#hero" class="nav-logo">AMI.DEV</a>
+        <ul class="nav-links" role="list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-status">
+            <div class="status-pip" aria-hidden="true"></div>
+            Open to opportunities
+        </div>
+        <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <div class="mobile-nav" id="mobileNav">
+        <a href="#about">About <span aria-hidden="true">&#8599;</span></a>
+        <a href="#skills">Skills <span aria-hidden="true">&#8599;</span></a>
+        <a href="#projects">Projects <span aria-hidden="true">&#8599;</span></a>
+        <a href="#contact">Contact <span aria-hidden="true">&#8599;</span></a>
+    </div>
+
+    <main id="main">
+
+        <section id="hero" aria-label="Introduction">
+            <div>
+                <div class="hero-pre" aria-hidden="true">
+                    <div class="hero-pre-line"></div>
+                    <div class="hero-pre-text">// ECSc. Student &amp; Computer Vision Engineer</div>
+                    <div class="hero-pre-line"></div>
+                </div>
+                <h1 class="hero-name">
+                    <span>ALI</span>
+                    <span class="outline">MOHAMMAD</span>
+                    <span class="glow">IMAM</span>
+                </h1>
+                <p class="hero-role">$ <span>python</span> main.py <span>--focus=cv,ai,data</span></p>
+                <p class="hero-bio">Second year ECSc. student passionate about computer vision, AI systems, and
+                    real-time software. I build projects at the intersection of mathematics and code &mdash; from
+                    landmark-based gaze tracking to data-driven solutions. Currently exploring on-device AI and
+                    human-computer interaction.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn">View Projects</a>
+                    <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-terminal" aria-hidden="true">
+                <div class="terminal-bar">
+                    <span class="t-dot r"></span><span class="t-dot y"></span><span class="t-dot g"></span>
+                    <span class="terminal-title">ali@dev&nbsp;~&nbsp;bash</span>
+                </div>
+                <div class="terminal-body">
+                    <div class="t-line"><span class="prompt">&#10095;</span><span class="cmd">my profile.json</span>
+                    </div>
+                    <div class="t-line">&nbsp;</div>
+                    <div class="t-line indent"><span class="out">{</span></div>
+                    <div class="t-line indent">&nbsp;&nbsp;<span class="str">"name"</span><span class="out">:</span>
+                        <span class="str">"Ali Mohammad Imam"</span><span class="out">,</span></div>
+                    <div class="t-line indent">&nbsp;&nbsp;<span class="str">"role"</span><span class="out">:</span>
+                        <span class="str">"ECSc. Student &amp; CV Engineer"</span><span class="out">,</span></div>
+                    <div class="t-line indent">&nbsp;&nbsp;<span class="str">"status"</span><span class="out">:</span>
+                        <span class="str">"2nd Year"</span><span class="out">,</span></div>
+                    <div class="t-line indent">&nbsp;&nbsp;<span class="str">"stack"</span><span class="out">: [</span>
+                    </div>
+                    <div class="t-line indent">&nbsp;&nbsp;&nbsp;&nbsp;<span class="str">"Python"</span><span
+                            class="out">,</span> <span class="str">"Java"</span><span class="out">,</span> <span
+                            class="str">"C"</span><span class="out">,</span></div>
+                    <div class="t-line indent">&nbsp;&nbsp;&nbsp;&nbsp;<span class="str">"OpenCV"</span><span
+                            class="out">,</span> <span class="str">"TensorFlow"</span><span class="out">,</span></div>
+                    <div class="t-line indent">&nbsp;&nbsp;&nbsp;&nbsp;<span class="str">"MediaPipe"</span><span
+                            class="out">,</span> <span class="str">"PostgreSQL"</span></div>
+                    <div class="t-line indent">&nbsp;&nbsp;<span class="out">],</span></div>
+                    <div class="t-line indent">&nbsp;&nbsp;<span class="str">"interests"</span><span class="out">:
+                            [<span class="str">"CV"</span>, <span class="str">"HCI"</span>, <span class="str">"on-device
+                                AI"</span>],</span></div>
+                    <div class="t-line indent">&nbsp;&nbsp;<span class="str">"available"</span><span
+                            class="out">:</span> <span class="val">true</span></div>
+                    <div class="t-line indent"><span class="out">}</span></div>
+                    <div class="t-line">&nbsp;</div>
+                    <div class="t-line"><span class="prompt">&#10095;</span><span class="comment"> # open to
+                            opportunities</span><span class="cursor-blink"></span></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="ticker" aria-hidden="true">
+            <div class="ticker-track">
+                <span class="ticker-item">Python</span><span class="ticker-item">Java</span>
+                <span class="ticker-item">C</span><span class="ticker-item">OpenCV</span>
+                <span class="ticker-item">TensorFlow</span><span class="ticker-item">MediaPipe</span>
+                <span class="ticker-item">PostgreSQL</span><span class="ticker-item">MySQL</span>
+                <span class="ticker-item">Data Analytics</span><span class="ticker-item">DSA</span>
+                <span class="ticker-item">Computer Vision</span><span class="ticker-item">Web Dev</span><span
+                    class="ticker-item">HCI</span>
+                <span class="ticker-item">Python</span><span class="ticker-item">Java</span>
+                <span class="ticker-item">C</span><span class="ticker-item">OpenCV</span>
+                <span class="ticker-item">TensorFlow</span><span class="ticker-item">MediaPipe</span>
+                <span class="ticker-item">PostgreSQL</span><span class="ticker-item">MySQL</span>
+                <span class="ticker-item">Data Analytics</span><span class="ticker-item">DSA</span>
+                <span class="ticker-item">Computer Vision</span><span class="ticker-item">Web Dev</span><span
+                    class="ticker-item">HCI</span>
+            </div>
+        </div>
+
+        <section class="section-wrap alt" id="about">
+            <div class="s-label">// 01 &mdash; about</div>
+            <h2 class="s-title reveal">Who Am I?</h2>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>I'm Ali Mohammad Imam! A second year Electronics &amp; Computer Science student with a deep
+                        passion for computer vision, AI systems, and real-time software. I love building things that sit
+                        at the intersection of mathematics and code: programs that see, understand, and react to the
+                        world.</p>
+                    <p>My approach is hands-on and curious. I dive into problems from first principles, experiment fast,
+                        and iterate until things work well &mdash; not just work. My gaze tracking project taught me
+                        more about signal stability and geometric modeling than any textbook ever could.</p>
+                    <p>As a fresher, I'm actively looking for opportunities where I can grow fast, contribute
+                        meaningfully, and learn from great engineers.</p>
+                </div>
+                <div class="stat-grid reveal">
+                    <div class="stat-cell">
+                        <div class="stat-num">ECSc.</div>
+                        <div class="stat-desc">2nd Year Student</div>
+                    </div>
+                    <div class="stat-cell">
+                        <div class="stat-num">1</div>
+                        <div class="stat-desc">Live Project</div>
+                    </div>
+                    <div class="stat-cell">
+                        <div class="stat-num">6+</div>
+                        <div class="stat-desc">Technologies</div>
+                    </div>
+                    <div class="stat-cell">
+                        <div class="stat-num">&#8734;</div>
+                        <div class="stat-desc">Curiosity</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-wrap" id="skills">
+            <div class="s-label">// 02 &mdash; skills</div>
+            <h2 class="s-title reveal">Tech Stack</h2>
+            <div class="skills-cols">
+                <div class="skill-group reveal">
+                    <div class="sg-title">Languages</div>
+                    <div class="sg-tags"><span class="sg-tag">Python</span><span class="sg-tag">Java</span><span
+                            class="sg-tag">C</span></div>
+                </div>
+                <div class="skill-group reveal">
+                    <div class="sg-title">Databases</div>
+                    <div class="sg-tags"><span class="sg-tag">MySQL</span><span class="sg-tag">PostgreSQL</span></div>
+                </div>
+                <div class="skill-group reveal">
+                    <div class="sg-title">AI / Computer Vision</div>
+                    <div class="sg-tags"><span class="sg-tag">OpenCV</span><span class="sg-tag">TensorFlow</span><span
+                            class="sg-tag">MediaPipe</span></div>
+                </div>
+                <div class="skill-group reveal">
+                    <div class="sg-title">Web Development</div>
+                    <div class="sg-tags"><span class="sg-tag">HTML</span><span class="sg-tag">CSS</span><span
+                            class="sg-tag">JavaScript</span></div>
+                </div>
+                <div class="skill-group reveal">
+                    <div class="sg-title">CS Fundamentals</div>
+                    <div class="sg-tags"><span class="sg-tag">Data Structures</span><span
+                            class="sg-tag">Algorithms</span><span class="sg-tag">OOP</span></div>
+                </div>
+                <div class="skill-group reveal">
+                    <div class="sg-title">Data &amp; Analytics</div>
+                    <div class="sg-tags"><span class="sg-tag">Data Analytics</span><span class="sg-tag">Signal
+                            Processing</span><span class="sg-tag">Geometric Modeling</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-wrap alt" id="projects">
+            <div class="s-label">// 03 &mdash; projects</div>
+            <h2 class="s-title reveal">Featured Work</h2>
+            <div class="projects-grid">
+                <article class="proj-card featured reveal">
+                    <div class="proj-live-badge">LIVE</div>
+                    <div class="proj-idx">01 //</div>
+                    <h3 class="proj-title">Real-Time Gaze Tracking System</h3>
+                    <p class="proj-desc">A real-time gaze tracking system that estimates horizontal gaze direction (Left
+                        / Center / Right) using MediaPipe's Face Landmarker Tasks API. Built on iris and eye corner
+                        landmark detection with normalized iris positioning, exponential smoothing for noise filtering,
+                        and calibrated thresholds for stable classification. Migrated from Haar Cascade to a geometric
+                        landmark-based approach for better lighting robustness.</p>
+                    <div class="proj-tags">
+                        <span class="proj-tag">Python</span><span class="proj-tag">MediaPipe</span>
+                        <span class="proj-tag">OpenCV</span><span class="proj-tag">Computer Vision</span>
+                        <span class="proj-tag">Signal Processing</span>
+                    </div>
+                    <div class="proj-links">
+                        <a href="https://github.com/Zam-Imam" target="_blank" rel="noopener noreferrer"
+                            class="proj-link">&#8599; GitHub</a>
+                        <a href="https://www.linkedin.com/in/ali-mohammad-imam-btech" target="_blank"
+                            rel="noopener noreferrer" class="proj-link dim">&#8599; LinkedIn Post</a>
+                    </div>
+                </article>
+                <article class="proj-card proj-soon" aria-hidden="true">
+                    <div class="proj-idx">02 //</div>
+                    <h3 class="proj-title">Coming Soon</h3>
+                    <p class="proj-desc">Next project in progress. Currently exploring on-device AI and HCI systems.</p>
+                    <div class="proj-tags"><span class="proj-tag">TBD</span></div>
+                </article>
+                <article class="proj-card proj-soon" aria-hidden="true">
+                    <div class="proj-idx">03 //</div>
+                    <h3 class="proj-title">Coming Soon</h3>
+                    <p class="proj-desc">More projects being built. Stay tuned! The best is yet to come.</p>
+                    <div class="proj-tags"><span class="proj-tag">TBD</span></div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section-wrap" id="contact">
+            <div class="s-label">// 04 &mdash; contact</div>
+            <div class="contact-layout">
+                <div class="reveal">
+                    <h2 class="contact-big">LET'S<br>WORK<br><span>TOGETHER.</span></h2>
+                    <p class="contact-p">Fresher actively looking for opportunities in software development, computer
+                        vision, and AI. Open to internships, entry-level roles, and interesting collaborations. Let's
+                        talk.</p>
+                    <a href="mailto:alimohammadimam99@gmail.com" class="btn">Send a Message</a>
+                </div>
+                <div class="reveal">
+                    <div class="contact-links">
+                        <a href="mailto:alimohammadimam99@gmail.com" class="contact-link">
+                            <span>alimohammadimam99@gmail.com</span><span class="c-arrow"
+                                aria-hidden="true">&#8599;</span>
+                        </a>
+                        <a href="https://github.com/Zam-Imam" target="_blank" rel="noopener noreferrer"
+                            class="contact-link">
+                            <span>GitHub &mdash; Zam-Imam</span><span class="c-arrow" aria-hidden="true">&#8599;</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ali-mohammad-imam-btech" target="_blank"
+                            rel="noopener noreferrer" class="contact-link">
+                            <span>LinkedIn</span><span class="c-arrow" aria-hidden="true">&#8599;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-l">Ali Mohammad Imam &copy; 2026</div>
+        <div class="footer-r">ECSc. Student &amp; CV Engineer &mdash; Built with intent.</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
